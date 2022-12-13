@@ -1,0 +1,62 @@
+
+body{
+    font: 20px Arial, sans-serif;
+}
+.navbar {
+    background-color: #aff5f5;
+    flex-direction: row-reverse; 
+}
+
+.navbar-nav a img{
+    border-radius: 50%;
+}
+
+.navbar-nav a {
+    color: #292828;
+    position: relative;
+    margin-right: 9rem;
+    text-align: left;
+}
+
+.navbar-nav a:hover{
+    color: #d01fe7;
+}
+
+.navbar-nav{
+    gap: 5rem;
+    margin-left: 5rem;
+    align-items: center;
+    justify-content: right;
+    display: flex;
+    text-align: left;
+}
+
+.quem-somos{
+    background-color: #4c4ce4;
+    color: #cfcfe0;
+}
+.quem-somos h3{
+    font-size: 28px;
+    margin-top: 35px;
+}
+
+.margin{   
+    padding-bottom: 20px;    
+    padding-top: 15px;
+}
+
+.parceiros{
+    background-color: #232525;
+    color: #b5b5c2;
+    font-size: 48px;
+}
+
+.parceiros h3{
+    font-size: 38px;
+}
+
+.bg-footer{
+    background-color: black;
+    color: white;
+    padding-top: 2rem;
+}
